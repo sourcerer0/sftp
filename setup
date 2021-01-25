@@ -1,0 +1,15 @@
+#!/bin/bash
+
+echo "INSTALLING DEPENDANCIES"
+echo "***********************"
+sudo apt update
+sudo apt -y install openssh-server openssh-client ssh
+
+echo "ADDING NEW SFTP GROUP"
+echo "*********************"
+gName=$(hostname)SFTP
+sudo addgroup $gName
+echo $gName > gName
+
+echo "done"
+

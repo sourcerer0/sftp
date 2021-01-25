@@ -1,0 +1,18 @@
+#!/bin/bash
+
+if [ -e gName ]
+then
+	gName=$(cat gName)
+else
+	echo "SFTP was not setup!"
+	exit 0
+fi
+
+for user in $@
+do
+	sudo useradd -m $user -g $gName
+	printf "\nPASSWORD TO $user\n>> "
+	sudo passwd $user
+	sudo chmod 700 /home/$user/
+done
+
