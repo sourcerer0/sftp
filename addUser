@@ -1,5 +1,11 @@
 #!/bin/bash
 
+if [ $1 == "--help" ]
+then
+	printf "Command Example:\n\t./addUser USER1 USER2 USER3 ...\n"
+	exit 0
+fi
+
 if [ -e gName ]
 then
 	gName=$(cat gName)
