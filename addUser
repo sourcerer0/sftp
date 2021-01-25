@@ -16,9 +16,9 @@ fi
 
 for user in $@
 do
-	sudo useradd -m $user -g $gName
+	sudo useradd -g $gName -s /sbin/nologin -m $user
 	printf "\nPASSWORD TO $user\n>> "
 	sudo passwd $user
-	sudo chmod 700 /home/$user/
+	sudo chmod 700 /home/$user/ && sudo chown $user:$gName /home/$user
 done
 
