@@ -1,0 +1,18 @@
+#!/bin/bash
+
+createLink() {
+	DIR=$(pwd)/$1
+	for file in $(ls $DIR)
+	do  
+        	if [ -f $DIR/$file ] && [ $file == "addUser" ]
+        	then
+                	sudo ln -s $DIR/$file /usr/local/bin
+        	fi
+	done
+}
+
+for dir in .
+do
+	createLink $dir
+done
+
