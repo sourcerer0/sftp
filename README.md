@@ -14,7 +14,7 @@ Comment the following line at "sshd_config":
 #Subsystem      sftp    /usr/libexec/openssh/sftp-server
 ```
 
-Add following lines:
+Add:
 ```
 Subsystem       sftp    internal-sftp
 
@@ -25,7 +25,7 @@ Match Group GROUP_NAME
 	ForceCommand internal-sftp
 ```
 
-And then:
+Save file and:
 ```
 reser
 ```
