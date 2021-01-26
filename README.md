@@ -18,8 +18,8 @@ Add following lines:
 ```
 Subsystem       sftp    internal-sftp
 
-Match group [GROUP_NAME]
-	ChrootDirectory /home/%u
+Match Group GROUP_NAME
+	ChrootDirectory %h
 	X11Forwarding no
 	AllowTcpForwarding no
 	ForceCommand internal-sftp
@@ -27,7 +27,7 @@ Match group [GROUP_NAME]
 
 And then:
 ```
-sudo systemctl restart ssh
+reser
 ```
 
 ## Adding sftp users

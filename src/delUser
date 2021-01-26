@@ -1,0 +1,13 @@
+#!/bin/bash
+
+if [ $1 = "--help" ]
+then
+	printf "Command Example:\n\tdelUser USER1 USER2 USER3 ...\n"
+	exit 0
+fi
+
+
+for user in $@
+do
+	sudo userdel $user && sudo rm -r $HOME/../$user
+done
