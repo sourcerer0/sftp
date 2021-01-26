@@ -2,7 +2,7 @@
 
 if [ $1 == "--help" ]
 then
-	printf "Command Example:\n\t./addUser USER1 USER2 USER3 ...\n"
+	printf "Command Example:\n\taddUser USER1 USER2 USER3 ...\n"
 	exit 0
 fi
 
@@ -19,6 +19,6 @@ do
 	sudo useradd -g $gName -s /sbin/nologin -m $user
 	printf "\nPASSWORD TO $user\n>> "
 	sudo passwd $user
-	sudo chmod 700 /home/$user/ && sudo chown $user:$gName /home/$user
+	sudo chmod 755 /home/$user && sudo chown root:root /home/$user
 done
 

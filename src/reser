@@ -1,0 +1,10 @@
+#!/bin/bash
+
+restart() {
+	for i in $@
+	do
+		sudo systemctl restart $i
+	done
+}
+restart ssh sshd
+
