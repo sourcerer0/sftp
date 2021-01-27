@@ -14,7 +14,7 @@ Comment the following line at "sshd_config":
 #Subsystem      sftp    /usr/libexec/openssh/sftp-server
 ```
 
-Add following lines:
+Add:
 ```
 Subsystem       sftp    internal-sftp
 
@@ -25,9 +25,9 @@ Match Group GROUP_NAME
 	ForceCommand internal-sftp
 ```
 
-And then:
+Save file and:
 ```
-reser
+reser #/usr/local/bin
 ```
 
 ## Adding sftp users
@@ -35,7 +35,7 @@ reser
 addUser --help
 ```
 
-> Note: ./SymLynk creates a symbolic link at /usr/local/bin for addUser
+> Note: ./SymLynk creates a symbolic link at /usr/local/bin for src scripts
 >
 > Don't forget to check where the original SymLynk script was [first created](https://github.com/sourcerer2/sourcery)
 
