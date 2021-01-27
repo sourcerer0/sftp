@@ -27,7 +27,7 @@ Match Group GROUP_NAME
 
 Save file and:
 ```
-reser
+reser #/usr/local/bin
 ```
 
 ## Adding sftp users
@@ -35,7 +35,7 @@ reser
 addUser --help
 ```
 
-> Note: ./SymLynk creates a symbolic link at /usr/local/bin for addUser
+> Note: ./SymLynk creates a symbolic link at /usr/local/bin for src scripts
 >
 > Don't forget to check where the original SymLynk script was [first created](https://github.com/sourcerer2/sourcery)
 
