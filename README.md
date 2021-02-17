@@ -1,9 +1,9 @@
-# mySFTP
+# SFTP
 My SFTP Server
 
 ## Installation & Configuration
 ```bash
-git clone git@github.com:sourcerer2/mySFTP.git
+git clone git@github.com:sourcerer0/mySFTP.git
 
 cd mySFTP && ./SymLynk && ./setup
 ```
@@ -37,11 +37,11 @@ addUser --help
 
 > Note: ./SymLynk creates a symbolic link at /usr/local/bin for src scripts
 >
-> Don't forget to check where the original SymLynk script was [first created](https://github.com/sourcerer2/sourcery)
+> Don't forget to check where the original SymLynk script was [first created](https://github.com/sourcerer0/sourcery)
 
 ## Contributing
-Fork it, or whatever. Free software, do what you want, but, please, [Pull Request first](https://github.com/sourcerer2/mySFTP/pulls).
+Fork it, or whatever. Free software, do what you want, but, please, [Pull Request first](https://github.com/sourcerer0/mySFTP/pulls).
 
 ## License & Issue Tracker
-- [Issues](https://github.com/sourcerer2/mySFTP/issues)
-- [Apache License 2.0](https://github.com/sourcerer2/mySFTP/blob/master/LICENSE)
+- [Issues](https://github.com/sourcerer0/mySFTP/issues)
+- [Apache License 2.0](https://github.com/sourcerer0/mySFTP/blob/master/LICENSE)
