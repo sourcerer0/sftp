@@ -3,9 +3,9 @@ My SFTP Server
 
 ## Installation & Configuration
 ```bash
-git clone git@github.com:sourcerer0/mySFTP.git
+git clone git@github.com:sourcerer0/sftp.git
 
-cd mySFTP && ./SymLynk && ./setup
+cd sftp && ./SymLynk && ./setup
 ```
 
 ### Setup sftp-server at /etc/ssh
@@ -40,7 +40,7 @@ addUser --help
 > Don't forget to check where the original SymLynk script was [first created](https://github.com/sourcerer0/sourcery)
 
 ## Contributing
-Fork it, or whatever. Free software, do what you want, but, please, [Pull Request first](https://github.com/sourcerer0/mySFTP/pulls).
+Fork it, or whatever. Free software, do what you want, but, please, [Pull Request first](https://github.com/sourcerer0/sftp/pulls).
 
 ## License & Issue Tracker
 - [Issues](https://github.com/sourcerer0/mySFTP/issues)
