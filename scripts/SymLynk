@@ -11,7 +11,7 @@ createLink() {
 	done
 }
 
-for dir in src
+for dir in sftp
 do
 	createLink $dir
 done
