@@ -2,16 +2,7 @@
 
 echo "INSTALLING DEPENDANCIES"
 echo "***********************"
-if [ $1 == "deb" ]
-then
-    sudo apt -y install openssh-server ssh
-elif [ $1 == "arch" ]
-then
-    sudo pacman -Syu openssh-server ssh
-else
-    echo "PLATFORM NOT AVAILABLE!"
-    exit 0
-fi
+sudo apt -y install openssh-server ssh
 
 echo "ADDING NEW SFTP GROUP"
 echo "*********************"
