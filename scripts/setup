@@ -2,7 +2,7 @@
 
 echo "INSTALLING DEPENDANCIES"
 echo "***********************"
-sudo apt -y install openssh-server openssh-client ssh
+sudo apt -y install openssh-server ssh
 
 echo "ADDING NEW SFTP GROUP"
 echo "*********************"
