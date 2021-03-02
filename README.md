@@ -3,7 +3,7 @@ My SFTP Server
 
 ## Installation & Configuration
 ```bash
-git clone git@github.com:sourcerer0/sftp.git
+git clone git@github.com:elleaech/sftp.git
 
 cd sftp && scripts/setup
 ```
@@ -36,8 +36,8 @@ sftp/addUser --help
 ```
 
 ## Contributing
-Fork it, or whatever. Free software, do what you want, but, please, [Pull Request first](https://github.com/sourcerer0/sftp/pulls).
+Fork it, or whatever. Free software, do what you want, but, please, [Pull Request first](https://github.com/elleaech/sftp/pulls).
 
 ## License & Issue Tracker
-- [Issues](https://github.com/sourcerer0/sftp/issues)
-- [Apache License 2.0](https://github.com/sourcerer0/sftp/blob/master/LICENSE)
+- [Issues](https://github.com/elleaech/sftp/issues)
+- [Apache License 2.0](https://github.com/elleaech/sftp/blob/master/LICENSE)
